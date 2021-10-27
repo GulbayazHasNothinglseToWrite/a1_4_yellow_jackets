@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id=".Z`y-}$VD8pNZR:*`M15" x="0" y="0"><field name="NAME">Button.B</field><comment>Both eyes on the smiley face blink (turn off) 4 times when the B button is pressed. After blinking the smiley face has both eyes open.</comment><statement name="HANDLER"><block type="controls_repeat_ext" id="eRRouGXA2)VO*Kjyt6%Z"><comment>blinks the face's right eye (left to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="u_QMD|aqViH6%d}S5qkH"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id=".t2,]}|?JVr~lV?:kb41"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="36+Eo!LKNYk%IzEcW[J$"><value name="pause"><shadow type="math_number" id="~I*87Pb[8vJLD.R}`Hw7"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="n|onEH5W+jd?L0VR7P$("><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="l|X]4RhTlFvf.BsBriQ3"><value name="pause"><shadow type="math_number" id="]yhzWfi[1opPcYo]kt2P"><field name="NUM">100</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block></xml>
